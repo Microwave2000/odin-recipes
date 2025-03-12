@@ -1,3 +1,22 @@
+body {
+    font-family: monospace;
+    background-color: aqua;
+    font-size: 20px;
+}
+
 h1 {
-    text-align: center
+    text-align: center;
+    font-size: 50px;
+}
+
+#lasagna-image {
+    height: 300px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 30px;
 }
