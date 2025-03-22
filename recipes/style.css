@@ -1,22 +1,67 @@
-body {
+main {
     font-family: monospace;
     background-color: aqua;
-    font-size: 20px;
+    font-size: 15px;
+    overflow: hidden;
+    padding-top: 30px
 }
 
 h1 {
-    text-align: center;
-    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px !important;
 }
 
 #lasagna-image {
-    height: 300px;
-    text-align: center;
+    height: 400px;
     display: block;
-    margin: auto;
-}
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}   
 
 h2 {
     text-decoration: underline;
     font-size: 30px;
+    padding: 5px
+}
+
+
+.nav {
+    background-color: red;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+
+a {
+    color:black !important;
+    font-size: large
+}
+
+li {
+    padding-top:5px;
+    padding-bottom: 5px
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;      /* Horizontálisan középre */
+    align-items: center;         /* Vertikálisan középre */
+    height: 70px;               /* Magasság beállítása */
+    background-color: #333;
+    color: white;
+}
+
+.description {
+    margin: 100px 50px;
+}
+
+.ingredients {
+    margin: 100px 50px;
+}
+
+.steps {
+    margin: 100px 50px;
 }
